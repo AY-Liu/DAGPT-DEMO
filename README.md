@@ -8,5 +8,7 @@
 
 以下是一个展示
 
+![demo](https://picture-bed-1304842378.cos.ap-guangzhou.myqcloud.com/DAGPT/demo.gif)
+
 
 
