@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "reasoning": {
+        "type": "string"
+      },
+      "commands": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "args": {
+              "type": "object"
+            }
+          },
+          "required": ["name", "args"],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": ["reasoning", "commands"],
+    "additionalProperties": false
+  }
+  
